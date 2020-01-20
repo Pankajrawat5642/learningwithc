@@ -5,6 +5,11 @@ cd: for moving to home
 cd dir: for changing directory to dir
 rm file: for deleting any file named file
 rm rf- dir: for deleting any directory
+pwd : to find the present working dirctory
+w: display who is working on the system and time since user is working
+ctrl+z:  stops currently running process
+fg: resume the stopped process in foreground
+bg: resume stopped process
 
 vim commands used:
 :x -> save changes and exit
