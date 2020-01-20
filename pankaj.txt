@@ -1,0 +1,13 @@
+mkdir: for making new directory
+mv: for moving file from 1 directory to another
+ls: for listing all the files in any directory
+cd: for moving to home
+cd dir: for changing directory to dir
+rm file: for deleting any file named file
+rm rf- dir: for deleting any directory
+
+vim commands used:
+:x -> save changes and exit
+:wq! -> save changes and exit
+i -> for inserting
+:q! -> exit without saving changes
