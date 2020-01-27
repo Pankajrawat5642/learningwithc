@@ -8,12 +8,15 @@ int main()
 	//printf("Enter string: ");
 	//scanf("%[^\n]*c",string);
 	//int p=strlength(string);
-	printf("Enter two strings to compare: ");
-	scanf("%[^\n]s",string1);
-	scanf(" %[^\n]s",string2);
-	stringconcat(string1,string2);
+	//printf("Enter two strings to compare: ");
+	//scanf("%[^\n]s",string1);
+	//scanf(" %[^\n]s",string2);
+	//stringconcat(string1,string2);
 	//int p=stringcompare(string1,string2);
 	//printf("compare:%d",p);
+	printf("Enter string to reverse:");
+	scanf("%[^\n]*c",string);
+	stringreverse(string);
 	return 0;
 }
 int strlength(char string[])
