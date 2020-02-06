@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+	int n,row=14;
+	printf("Enter No. of string:");
+	scanf("%d",&n);
+	char **ptr=(char**)malloc(n*sizeof(char*);
+	for(int i=0;i<n;i++)
+	{
+		ptr[i]=(char*)malloc(row*sizeof(char));
+	}
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<row;j++)
+		{
+			scanf("%c",&ptr[i][j]);
+		}
+	}
+	for(int i=0;i<n;i++)
+        {
+                for(int j=0;j<row;j++)
+                {
+                        printf("%c",ptr[i][j]);
+                }
+        }
+}
+
+
+
